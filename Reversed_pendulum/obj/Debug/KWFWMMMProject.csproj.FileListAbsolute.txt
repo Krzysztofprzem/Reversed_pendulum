@@ -1,0 +1,30 @@
+D:\MOJE\Projekty\C#\MMM Projekt\KWFWMMMProject\KWFWMMMProject\bin\Debug\KWFWMMMProject.exe.config
+D:\MOJE\Projekty\C#\MMM Projekt\KWFWMMMProject\KWFWMMMProject\bin\Debug\KWFWMMMProject.exe
+D:\MOJE\Projekty\C#\MMM Projekt\KWFWMMMProject\KWFWMMMProject\bin\Debug\KWFWMMMProject.pdb
+D:\MOJE\Projekty\C#\MMM Projekt\KWFWMMMProject\KWFWMMMProject\obj\Debug\KWFWMMMProject.csprojResolveAssemblyReference.cache
+D:\MOJE\Projekty\C#\MMM Projekt\KWFWMMMProject\KWFWMMMProject\obj\Debug\MainWindow.g.cs
+D:\MOJE\Projekty\C#\MMM Projekt\KWFWMMMProject\KWFWMMMProject\obj\Debug\App.g.cs
+D:\MOJE\Projekty\C#\MMM Projekt\KWFWMMMProject\KWFWMMMProject\obj\Debug\KWFWMMMProject_MarkupCompile.cache
+D:\MOJE\Projekty\C#\MMM Projekt\KWFWMMMProject\KWFWMMMProject\obj\Debug\KWFWMMMProject_MarkupCompile.lref
+D:\MOJE\Projekty\C#\MMM Projekt\KWFWMMMProject\KWFWMMMProject\obj\Debug\MainWindow.baml
+D:\MOJE\Projekty\C#\MMM Projekt\KWFWMMMProject\KWFWMMMProject\obj\Debug\KWFWMMMProject.g.resources
+D:\MOJE\Projekty\C#\MMM Projekt\KWFWMMMProject\KWFWMMMProject\obj\Debug\KWFWMMMProject.Properties.Resources.resources
+D:\MOJE\Projekty\C#\MMM Projekt\KWFWMMMProject\KWFWMMMProject\obj\Debug\KWFWMMMProject.csproj.GenerateResource.Cache
+D:\MOJE\Projekty\C#\MMM Projekt\KWFWMMMProject\KWFWMMMProject\obj\Debug\KWFWMMMProject.csproj.CoreCompileInputs.cache
+D:\MOJE\Projekty\C#\MMM Projekt\KWFWMMMProject\KWFWMMMProject\obj\Debug\KWFWMMMProject.exe
+D:\MOJE\Projekty\C#\MMM Projekt\KWFWMMMProject\KWFWMMMProject\obj\Debug\KWFWMMMProject.pdb
+D:\MOJE\Projekty\C#\KWFWMMMProject\KWFWMMMProject\bin\Debug\KWFWMMMProject.exe.config
+D:\MOJE\Projekty\C#\KWFWMMMProject\KWFWMMMProject\bin\Debug\KWFWMMMProject.exe
+D:\MOJE\Projekty\C#\KWFWMMMProject\KWFWMMMProject\bin\Debug\KWFWMMMProject.pdb
+D:\MOJE\Projekty\C#\KWFWMMMProject\KWFWMMMProject\obj\Debug\KWFWMMMProject.csprojResolveAssemblyReference.cache
+D:\MOJE\Projekty\C#\KWFWMMMProject\KWFWMMMProject\obj\Debug\MainWindow.g.cs
+D:\MOJE\Projekty\C#\KWFWMMMProject\KWFWMMMProject\obj\Debug\App.g.cs
+D:\MOJE\Projekty\C#\KWFWMMMProject\KWFWMMMProject\obj\Debug\KWFWMMMProject_MarkupCompile.cache
+D:\MOJE\Projekty\C#\KWFWMMMProject\KWFWMMMProject\obj\Debug\KWFWMMMProject_MarkupCompile.lref
+D:\MOJE\Projekty\C#\KWFWMMMProject\KWFWMMMProject\obj\Debug\MainWindow.baml
+D:\MOJE\Projekty\C#\KWFWMMMProject\KWFWMMMProject\obj\Debug\KWFWMMMProject.g.resources
+D:\MOJE\Projekty\C#\KWFWMMMProject\KWFWMMMProject\obj\Debug\KWFWMMMProject.Properties.Resources.resources
+D:\MOJE\Projekty\C#\KWFWMMMProject\KWFWMMMProject\obj\Debug\KWFWMMMProject.csproj.GenerateResource.Cache
+D:\MOJE\Projekty\C#\KWFWMMMProject\KWFWMMMProject\obj\Debug\KWFWMMMProject.csproj.CoreCompileInputs.cache
+D:\MOJE\Projekty\C#\KWFWMMMProject\KWFWMMMProject\obj\Debug\KWFWMMMProject.exe
+D:\MOJE\Projekty\C#\KWFWMMMProject\KWFWMMMProject\obj\Debug\KWFWMMMProject.pdb

@@ -1,0 +1,64 @@
+﻿<Window x:Class="KWFWMMMProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KWFWMMMProject"
+        mc:Ignorable="d"
+        Title="Reversed_pendulum" Height="600" Width="1000" MaxHeight="600" MaxWidth="1000">
+    <Grid x:Name="Main" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="1"/>
+                <GradientStop Color="#FFEEF9FF"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBox x:Name="angle" HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" />
+        <TextBox x:Name="angular_speed" HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" Margin="0,25,0,0" />
+        <TextBox x:Name="mass" HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" Margin="0,50,0,0"/>
+        <TextBox x:Name="lenght" HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" Margin="0,75,0,0"/>
+        <TextBox x:Name="friction" HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" Margin="0,100,0,0"/>
+        <RadioButton x:Name="Square" Content="square" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Margin="0,135,0,0" Height="20" BorderThickness="2,1,1,1"/>
+        <RadioButton x:Name="Triangle" Content="triangle" HorizontalAlignment="Left" VerticalAlignment="Top" Width="65" Margin="65,135,0,0" Height="20" BorderThickness="2,1,1,1"/>
+        <RadioButton x:Name="Harmonic" Content="harmonic" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Margin="130,135,0,0" Height="20" BorderThickness="2,1,1,1" />
+        <TextBox x:Name="constant_t" HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" Margin="0,166,0,0"/>
+        <TextBox x:Name="amplitude" HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" Margin="0,191,0,0"/>
+        <TextBox x:Name="period" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" Margin="0,216,0,0"/>
+        <TextBox x:Name="fill_factor" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" Margin="0,242,0,0"/>
+        <TextBox x:Name="phase_shift" HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" Margin="0,266,0,0"/>
+        <TextBox x:Name="duration_of_signal" HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" Margin="0,291,0,0"/>
+        <TextBox x:Name="step_of_time" HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" Margin="0,316,0,0"/>
+        <TextBox x:Name="freq_of_simulation" HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" Margin="0,341,0,0"/>
+        <Label Content="ω [°]" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="75,0,0,0" Height="25" Width="35"/>
+        <Label Content="ω' [°/s]" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="75,25,0,0" Height="25" Width="51"/>
+        <Label Content="m [kg]" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="75,49,0,0" Height="26" Width="50"/>
+        <Label Content="L [m]" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="75,75,0,0" Height="25" Width="46"/>
+        <Label Content="b" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="75,100,0,0" Height="25" Width="20"/>
+        <Label Content="Cτ" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="75,166,0,0" Height="25" Width="55"/>
+        <Label Content="amplitude" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="75,191,0,0" Height="25"/>
+        <Label Content="period [s]" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="75,217,0,0" Height="25"/>
+        <Label Content="fill [%]" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="75,241,0,0" Height="25" Width="47"/>
+        <Label Content="φ [°]" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="75,267,0,0" Height="24" Width="34"/>
+        <Label Content="duration [s]" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="75,292,0,0" Height="24" Width="70"/>
+        <Label Content="Δt [s]" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="75,317,0,0" Height="24" Width="65"/>
+        <Label Content="simulation freq [Hz]" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="75,337,0,0" Height="26" Width="115"/>
+        <Label Content="iterations [n]" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="75,359,0,0" Height="26" Width="80"/>
+        <TextBox x:Name="iterations" HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" Margin="0,363,0,0"/>
+        <Button x:Name="accept" Content="C" VerticalAlignment="Top" Margin="346,300,492,0" Click="Accept" Height="70" FontFamily="Wingdings" FontSize="72" BorderThickness="1" Background="#FFDE4B4B" BorderBrush="Black" />
+        <Button x:Name="Stop" Content="C" VerticalAlignment="Top" Margin="492,300,346,0" Click="Stop_timer" Height="70" FontFamily="Wingdings" FontSize="72" BorderThickness="1" Background="#FF514242" BorderBrush="Black" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Rectangle x:Name="MyRect" Fill="White" Height="300" Stroke="Black" VerticalAlignment="Top" Margin="346,0" StrokeThickness="3"/>
+        <Label Content="Iteration" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="835,0,0,0" Height="50" Width="155" FontSize="36"/>
+        <Label Content="Moment of time [s]" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="835,105,0,0" Width="155" Height="35" FontSize="16"/>
+        <Label x:Name="Iteration_counter" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="835,50,0,0" Height="55" Width="155" Background="Black" FontSize="36" Foreground="Red" FontFamily="Malgun Gothic Semilight" FontWeight="Bold" FlowDirection="RightToLeft"/>
+        <Label x:Name="Moment_of_time_counter" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="835,140,0,0" Height="55" Width="155" Background="Black" FontSize="36" Foreground="Red" FontFamily="Malgun Gothic Semilight" FontWeight="Bold" FlowDirection="RightToLeft"/>
+    </Grid>
+</Window>

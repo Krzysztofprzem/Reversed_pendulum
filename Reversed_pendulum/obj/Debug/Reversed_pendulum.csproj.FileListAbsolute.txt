@@ -1,0 +1,15 @@
+D:\MOJE\Projekty\C#\Reversed_pendulum\Reversed_pendulum\obj\Debug\Reversed_pendulum.csprojAssemblyReference.cache
+D:\MOJE\Projekty\C#\Reversed_pendulum\Reversed_pendulum\obj\Debug\MainWindow.g.cs
+D:\MOJE\Projekty\C#\Reversed_pendulum\Reversed_pendulum\obj\Debug\App.g.cs
+D:\MOJE\Projekty\C#\Reversed_pendulum\Reversed_pendulum\obj\Debug\Reversed_pendulum_MarkupCompile.cache
+D:\MOJE\Projekty\C#\Reversed_pendulum\Reversed_pendulum\obj\Debug\Reversed_pendulum_MarkupCompile.lref
+D:\MOJE\Projekty\C#\Reversed_pendulum\Reversed_pendulum\bin\Debug\Reversed_pendulum.exe.config
+D:\MOJE\Projekty\C#\Reversed_pendulum\Reversed_pendulum\bin\Debug\Reversed_pendulum.exe
+D:\MOJE\Projekty\C#\Reversed_pendulum\Reversed_pendulum\bin\Debug\Reversed_pendulum.pdb
+D:\MOJE\Projekty\C#\Reversed_pendulum\Reversed_pendulum\obj\Debug\MainWindow.baml
+D:\MOJE\Projekty\C#\Reversed_pendulum\Reversed_pendulum\obj\Debug\Reversed_pendulum.g.resources
+D:\MOJE\Projekty\C#\Reversed_pendulum\Reversed_pendulum\obj\Debug\Reversed_pendulum.Properties.Resources.resources
+D:\MOJE\Projekty\C#\Reversed_pendulum\Reversed_pendulum\obj\Debug\Reversed_pendulum.csproj.GenerateResource.cache
+D:\MOJE\Projekty\C#\Reversed_pendulum\Reversed_pendulum\obj\Debug\Reversed_pendulum.csproj.CoreCompileInputs.cache
+D:\MOJE\Projekty\C#\Reversed_pendulum\Reversed_pendulum\obj\Debug\Reversed_pendulum.exe
+D:\MOJE\Projekty\C#\Reversed_pendulum\Reversed_pendulum\obj\Debug\Reversed_pendulum.pdb
